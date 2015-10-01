@@ -1,0 +1,13 @@
+{
+  "name": "IOSComponent",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-native": "^0.11.4",
+    "react-scrollbars": "0.0.5"
+  }
+}
