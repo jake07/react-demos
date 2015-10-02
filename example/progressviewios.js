@@ -64,7 +64,7 @@ var styles = StyleSheet.create({
     backgroundColor: 'transparent',
   },
   progressView: {
-    marginTop: 20,
+    marginTop: 50,
   }
 });
 

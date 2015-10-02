@@ -6,6 +6,9 @@ var scrollview = require('./scrollview');
 var progressviewios = require('./progressviewios');
 var sliderios = require('./sliderios');
 var pickerios = require('./pickerios');
+var tabbarios = require('./tabbarios');
+var s1 = require('./switchios');
+var webview = require('./webview');
 
 var styles = React.StyleSheet.create({
 	text: {
@@ -32,7 +35,7 @@ class ExampleApp extends React.Component {
 				style={styles.container}
 				initialRoute={{
 					title: 'Example Application',
-					component: pickerios
+					component: scrollview
 				}}/>
 		);
 	}

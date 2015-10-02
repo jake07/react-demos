@@ -80,7 +80,7 @@ var styles = StyleSheet.create({
     height: 40,
   },
   button: {
-    margin: 7,
+    marginTop: 100,
     padding: 5,
     alignItems: 'center',
     backgroundColor: '#eaeaea',
