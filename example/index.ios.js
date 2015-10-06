@@ -9,6 +9,7 @@ var pickerios = require('./pickerios');
 var tabbarios = require('./tabbarios');
 var s1 = require('./switchios');
 var webview = require('./webview');
+var navigatorios = require('./navigatorios');
 
 var styles = React.StyleSheet.create({
 	text: {
@@ -35,7 +36,7 @@ class ExampleApp extends React.Component {
 				style={styles.container}
 				initialRoute={{
 					title: 'Example Application',
-					component: scrollview
+					component: navigatorios
 				}}/>
 		);
 	}
